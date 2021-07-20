@@ -10,14 +10,21 @@
 fun main() {
 
     // TODO 1
-    val vehicle = mapOf<String, String>()
+    val vehicle = mapOf<String, String>(
+        "type" to "Motorcycle",
+        "maxSpeed" to "230Km/s",
+        "maxTank" to "10Ltr"
+    )
 
     // TODO 2
-    val type = ""
-    val maxSpeed = ""
-    val maxTank = ""
+    val type = "Type: "+vehicle["type"]
+    val maxSpeed = "Maximal Speed: "+vehicle["maxSpeed"]
+    val maxTank = "Maximal Tank: "+vehicle["maxTank"]
 
     // TODO 3
-    println()
+    println("Vehicle")
+    println(type)
+    println(maxSpeed)
+    println(maxTank)
 
 }

@@ -24,5 +24,8 @@ fun main() {
 
 // TODO\
 fun String.getFirstAndLast(): Map<String, Char>{
-    return mapOf()
+    return mapOf(
+        "first" to first(),
+        "last" to last()
+    )
 }

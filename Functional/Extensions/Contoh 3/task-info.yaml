@@ -12,6 +12,8 @@ files:
     val Int.slice: Int
         get() = this / 2
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Tue, 20 Jul 2021 14:10:12 UTC
 record: -1
 post_submission_on_open: true

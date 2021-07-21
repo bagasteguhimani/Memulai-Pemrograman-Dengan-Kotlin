@@ -30,6 +30,8 @@ files:
         println("Nama: ${dicodingBird.name}, Berat: ${dicodingBird.weight}, Umur: ${dicodingBird.age}, mamalia: ${dicodingBird.isMammal}")
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Wed, 21 Jul 2021 02:21:55 UTC
 record: -1
 post_submission_on_open: true
